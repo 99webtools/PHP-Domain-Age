@@ -1,3 +1,4 @@
+<?php
 #######################################################################
 #                                PHP Domain Age Class
 #        Script Url: http://99webtools.com/domain-age-checker-script.php
@@ -81,3 +82,4 @@ $domain="=".$domain;
   return $out;
   }
 }
+?>
