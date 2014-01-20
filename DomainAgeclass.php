@@ -1,3 +1,12 @@
+#######################################################################
+#                                PHP Domain Age Class
+#        Script Url: http://99webtools.com/domain-age-checker-script.php
+#        Author: Sunny Verma
+#        Email: er.sunny.verma@gmail.com
+#        Website: http://99webtools.com
+#        License: GPL 3.0, @see http://www.gnu.org/licenses/gpl-3.0.html
+########################################################################
+
 class DomainAge{
   private $WHOIS_SERVERS=array(
   "com"               =>  array("whois.verisign-grs.com","/Creation Date:(.*)/"),
