@@ -41,6 +41,7 @@ class DomainAge{
   {
   $domain = trim($domain); //remove space from start and end of domain
   if(substr(strtolower($domain), 0, 7) == "http://") $domain = substr($domain, 7); // remove http:// if included
+  if(substr(strtolower($domain), 0, 8) == "https://") $domain = substr($domain, 8); // remove https:// if included
   if(substr(strtolower($domain), 0, 4) == "www.") $domain = substr($domain, 4);//remove www from domain
   if(preg_match("/^([-a-z0-9]{2,100})\.([a-z\.]{2,8})$/i",$domain))
   {
